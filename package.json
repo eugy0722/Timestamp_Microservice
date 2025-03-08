@@ -1,0 +1,25 @@
+{
+  "name": "timestamp_microservice",
+  "version": "1.0.0",
+  "description": "A simple microservice that converts a date (Unix timestamp or natural date string) into both Unix timestamp and UTC date string formats.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugy0722/Timestamp_Microservice.git"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "dotenv": "^16.4.7"
+  },
+  "keywords": ["Date", "Timestamp", "Unix Timestamp", "DateString", "UTC"],
+  "author": "Eugy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eugy0722/Timestamp_Microservice/issues"
+  },
+  "homepage": "https://github.com/eugy0722/Timestamp_Microservice#readme"
+}

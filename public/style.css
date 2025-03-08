@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Basic styling for a main title */
+h1 {
+    font-size: 2.5em; /* Adjust size as needed */
+    font-weight: bold;
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Add some space below the title */
+    color: #333; /* Dark gray color (adjust as desired) */
+    font-family: sans-serif; /* Change font family as needed */
+    line-height: 1.2; /* Adjust line height for better readability */
+  }
+  
+  /* More advanced styling examples */
+  
+  /* Example 1: Add a subtle text shadow */
+  h1.shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Example 2: Add a background color and padding */
+  h1.bg-padded {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  /* Example 3: Change color on hover */
+  h1.hover-color:hover {
+    color: #007bff; /* Blue color on hover */
+  }
+  
+  /* Example 4: Add a border */
+  h1.border{
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  /* Example 5: use a web font */
+  h1.web-font{
+    font-family: 'Roboto', sans-serif; /*example font, you must link it in your html*/
+  }
+  
+  /* Example 6: Make it responsive */
+  @media (max-width: 768px) {
+    h1.responsive {
+      font-size: 2em; /* Smaller font size on smaller screens */
+    }
+  }
+  
+  /*Example 7: Use text transform*/
+  h1.uppercase {
+    text-transform: uppercase;
+  }
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
